@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee0427de-ac89-4bed-af79-6a24a4ce5473" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mbti-test-mini.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/2b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GlobalFooter/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GlobalFooter/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/doQuestion/index.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/doQuestion/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/doQuestion/index.tsx" afterDir="false" />
+    <list default="true" id="ee0427de-ac89-4bed-af79-6a24a4ce5473" name="更改" comment="主页基本开发完毕">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +15,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AIlearing&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AIlearing/mbti-mini.git",
+    "accountId": "a5865f71-a93e-4cfc-b1c4-a6ad06c92a10"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
@@ -42,6 +43,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/CUMTGraduateProject/yupiAI/yudada-temp/mbti-test-mini/src/pages",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -110,7 +112,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
       </set>
     </attachedChunks>
   </component>
@@ -124,11 +127,25 @@
       <updated>1739197214439</updated>
       <workItem from="1739197216726" duration="2065000" />
       <workItem from="1739212812484" duration="906000" />
-      <workItem from="1739325298487" duration="12798000" />
+      <workItem from="1739325298487" duration="14428000" />
+      <workItem from="1739367723524" duration="67000" />
     </task>
+    <task id="LOCAL-00001" summary="主页基本开发完毕">
+      <option name="closed" value="true" />
+      <created>1739346212173</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739346212173</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="主页基本开发完毕" />
+    <option name="LAST_COMMIT_MESSAGE" value="主页基本开发完毕" />
   </component>
 </project>
