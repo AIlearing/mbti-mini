@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 dist/
 deploy_versions/
 .temp/
@@ -5,3 +6,23 @@ deploy_versions/
 node_modules/
 .DS_Store
 .swc
+=======
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+
+# Other files and folders
+.settings/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
+
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
+>>>>>>> f4519f7f5c0822ac13f851759ab5746a19d37dcc
