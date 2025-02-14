@@ -1,0 +1,32 @@
+.resultPage {
+  background: #A2C7D7;
+
+  .title {
+    color: #fff;
+    padding-top: 48px;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .subTitle {
+    color: #fff;
+    margin-bottom: 48px;
+  }
+
+  .enterBtn {
+    width: 60vw;
+    min-width: 180px;
+  }
+
+  .img-bg {
+    width: 100vw;
+    height: 50vh; /* 高度设置为页面的一半 */
+    background-size: cover; /* 图片自适应填充 */
+    background-image: url('../../assets/2b.jpg');
+    background-repeat: no-repeat; /* 防止图片重复 */
+    background-position: center; /* 图片居中显示 */
+    position: fixed; /* 固定位置 */
+    bottom: 0; /* 定位在页面底部 */
+    left: 0; /* 左对齐 */
+  }
+}

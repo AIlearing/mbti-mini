@@ -1,34 +1,99 @@
 import Taro from "@tarojs/taro";
-import { View, Image } from '@tarojs/components'
-import { AtButton } from 'taro-ui'
-import "taro-ui/dist/style/components/button.scss" // 按需引入
-import './index.scss'
-import GlobalFooter from '../../components/GlobalFooter'
+import { View, Image } from "@tarojs/components";
+import {AtButton, AtRadio} from "taro-ui";
+import { useEffect, useState } from "react";
+import "taro-ui/dist/style/components/button.scss"; // 按需引入
+import "./index.scss";
+import GlobalFooter from "../../components/GlobalFooter";
+import questions from "../../data/questions.json"
+
 
 /**
- * 主页
+ * 答题页面
  */
 export default () => {
+  // 当前题目序号（从 1 开始）
+  const [current, setCurrent] = useState<number>(1);
+  // 当前题目
+  const [currentQuestion, setCurrentQuestion] = useState(questions[0]);
+  const radioOptions = currentQuestion.options.map((option) => {
+    return {
+      label: `${option.key}. ${option.value}`,
+      value: option.key,
+    };
+  });
+  // 当前回答
+  const [currentAnswer, setCurrentAnswer] = useState<string>();
+  // 回答列表
+  const [answerList] = useState<string[]>([]);
+
+  // 序号变化时，切换当前题目和当前回答
+  useEffect(() => {
+    setCurrentQuestion(questions[current - 1]);
+    setCurrentAnswer(answerList[current - 1]);
+  }, [current]);
+
   return (
-    <View className='indexPage'>
-      <View className='at-article__h1 title'>MBTI 性格测试</View>
-      <View className='at-article__h3 subTitle'>
-        只需 2 分钟，就能非常准确地描述出你是谁，以及你的性格特点
+    <View className='doQuestionPage'>
+      <View className='at-article__h2 title'>
+        {current}、{currentQuestion.title}
       </View>
-      <AtButton
-        type='primary'
-        size='normal'
-        className='enterBtn'
-        circle
-        onClick={() => {
-          Taro.navigateTo({
-            url: "/pages/doQuestion/index",
-          });
-        }}
-      >
-        开始测试
-      </AtButton>
-      <View className='img-bg'></View>
+      <View className='options-wrapper'>
+        <AtRadio
+          options={radioOptions}
+          value={currentAnswer}
+          onClick={(value) => {
+            setCurrentAnswer(value);
+            // 记录回答
+            answerList[current - 1] = value;
+          }}
+        />
+      </View>
+      {current < questions.length && (
+        <AtButton
+          type='primary'
+          size='normal'
+          className='controlBtn'
+          circle
+          disabled={!currentAnswer}
+          onClick={() => {
+            setCurrent(current + 1);
+          }}
+        >
+          下一题
+        </AtButton>
+      )}
+      {current >= questions.length && (
+        <AtButton
+          type='primary'
+          size='normal'
+          className='controlBtn'
+          circle
+          disabled={!currentAnswer}
+          onClick={() => {
+            // 传递答案
+            Taro.setStorageSync("answerList", answerList);
+            // 跳转到结果页
+            Taro.navigateTo({
+              url: "/pages/result/index",
+            });
+          }}
+        >
+          查看结果
+        </AtButton>
+      )}
+      {current > 1 && (
+        <AtButton
+          size='normal'
+          className='controlBtn'
+          circle
+          onClick={() => {
+            setCurrent(current - 1);
+          }}
+        >
+          上一题
+        </AtButton>
+      )}
       <GlobalFooter />
     </View>
   );

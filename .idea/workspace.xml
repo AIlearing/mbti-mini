@@ -5,12 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee0427de-ac89-4bed-af79-6a24a4ce5473" name="更改" comment="主页基本开发完毕">
+      <change afterPath="$PROJECT_DIR$/src/data/question_results.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/questions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/result/index.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/result/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/result/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/bizUtils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/doQuestion/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/doQuestion/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/doQuestion/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/doQuestion/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,48 +38,51 @@
     &quot;assignee&quot;: &quot;AIlearing&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/AIlearing/mbti-mini.git",
-    "accountId": "a5865f71-a93e-4cfc-b1c4-a6ad06c92a10"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AIlearing/mbti-mini.git&quot;,
+    &quot;accountId&quot;: &quot;bcf85844-e9e2-4d26-98c9-d39df0e2368e&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2sqy5DqhONbN6V5bOivK5Ob9EzU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/CUMTGraduateProject/yupiAI/yudada-temp/mbti-test-mini/src/pages",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.stylelint": "E:\\CUMTGraduateProject\\yupiAI\\yudada-temp\\mbti-test-mini\\node_modules\\stylelint",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.build:weapp.executor": "Run",
-    "npm.dev:swan.executor": "Run",
-    "npm.dev:weapp.executor": "Run",
-    "prettierjs.PrettierConfiguration.Package": "E:\\CUMTGraduateProject\\yupiAI\\yudada-temp\\mbti-test-mini\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "E:\\CUMTGraduateProject\\yupiAI\\yudada-temp\\mbti-test-mini\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/CUMTGraduateProject/yupiAI/yudada-temp/mbti-test-mini/src/pages&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;E:\\CUMTGraduateProject\\yupiAI\\yudada-temp\\mbti-test-mini\\node_modules\\stylelint&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build:weapp.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev:swan.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev:weapp.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;E:\\CUMTGraduateProject\\yupiAI\\yudada-temp\\mbti-test-mini\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\CUMTGraduateProject\\yupiAI\\yudada-temp\\mbti-test-mini\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\CUMTGraduateProject\yupiAI\yudada-temp\mbti-test-mini\src\pages" />
@@ -112,8 +132,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
       </set>
     </attachedChunks>
   </component>
@@ -129,6 +148,10 @@
       <workItem from="1739212812484" duration="906000" />
       <workItem from="1739325298487" duration="14428000" />
       <workItem from="1739367723524" duration="67000" />
+      <workItem from="1739416235166" duration="1526000" />
+      <workItem from="1739426779177" duration="5536000" />
+      <workItem from="1739461905068" duration="3191000" />
+      <workItem from="1739500521694" duration="6081000" />
     </task>
     <task id="LOCAL-00001" summary="主页基本开发完毕">
       <option name="closed" value="true" />
